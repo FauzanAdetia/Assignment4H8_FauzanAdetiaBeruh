@@ -38,10 +38,10 @@
                     <img src="pngwing.com.png" alt="" srcset="">
                 </div>
                 <div class="profile-info">
-                    <h4>Fauzan Adetia Beruh</h4>
-                    <p style="margin-bottom: 20px;">Front End Designer</p>
+                    <h4 id="name">Fauzan Adetia Beruh</h4>
+                    <p style="margin-bottom: 20px;" id="role">Front End Designer</p>
                     <div class="button">
-                        <button type="submit" id="edit">Edit</button>
+                        <button type="button" id="edit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
                         <button type="submit" id="resume">Resume</button>
                     </div>
                 </div>
@@ -69,6 +69,40 @@
                             <td><span id="email">email@gmail.com</span></td>
                         </tr>
                     </table>
+                </div>
+
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="newName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="newName">
+                                    <label for="newRole" class="form-label">Role</label>
+                                    <input type="text" class="form-control" id="newRole">
+                                    <label for="newAvailibility" class="form-label">Availibility</label>
+                                    <input type="text" class="form-control" id="newAvailibility">
+                                    <label for="newUsia" class="form-label">Usia</label>
+                                    <input type="text" class="form-control" id="newUsia">
+                                    <label for="newLokasi" class="form-label">Lokasi</label>
+                                    <input type="text" class="form-control" id="newLokasi">
+                                    <label for="newPengalaman" class="form-label">Pengalaman</label>
+                                    <input type="text" class="form-control" id="newPengalaman">
+                                    <label for="newEmail" class="form-label">Email</label>
+                                    <input type="text" class="form-control" id="newEmail">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
                 </div>
 
 
