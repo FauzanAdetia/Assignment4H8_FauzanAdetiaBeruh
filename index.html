@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -38,10 +38,10 @@
                     <img src="pngwing.com.png" alt="" srcset="">
                 </div>
                 <div class="profile-info">
-                    <h4 id="name">Fauzan Adetia Beruh</h4>
-                    <p style="margin-bottom: 20px;" id="role">Front End Designer</p>
+                    <h4 id="name"> </h4>
+                    <p style="margin-bottom: 20px;" id="role"> </p>
                     <div class="button">
-                        <button type="button" id="edit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                        <button type="button" id="edit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-right: 15px;">Edit</button>
                         <button type="submit" id="resume">Resume</button>
                     </div>
                 </div>
@@ -50,38 +50,37 @@
                     <table>
                         <tr>
                             <th>Availibility</th>
-                            <td><span id="availibility">Full Time</span></td>
+                            <td><span id="availibility"> </span></td>
                         </tr>
                         <tr>
                             <th>Usia</th>
-                            <td><span id="usia">21</span></td>
+                            <td><span id="usia"> </span></td>
                         </tr>
                         <tr>
                             <th>Lokasi</th>
-                            <td><span id="lokasi">Tangerang Selatan</span></td>
+                            <td><span id="lokasi"> </span></td>
                         </tr>
                         <tr>
                             <th>Pengalaman</th>
-                            <td><span id="pengalaman">2 Tahun</span></td>
+                            <td><span id="pengalaman"> </span></td>
                         </tr>
                         <tr>
                             <th>Email</th>
-                            <td><span id="email">email@gmail.com</span></td>
+                            <td><span id="email"> </span></td>
                         </tr>
                     </table>
                 </div>
 
-                
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Profile</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <form>
+                            <form id="form">
                                 <div class="mb-3">
                                     <label for="newName" class="form-label">Name</label>
                                     <input type="text" class="form-control" id="newName">
@@ -98,18 +97,17 @@
                                     <label for="newEmail" class="form-label">Email</label>
                                     <input type="text" class="form-control" id="newEmail">
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary" id="submitForm">Submit</button>
                             </form>
                         </div>
                     </div>
                     </div>
                 </div>
-
-
         </div>
-
     </main>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
